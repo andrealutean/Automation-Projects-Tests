@@ -22,11 +22,11 @@ public class BaseTest {
     driver = BrowserConfigs.getChromeDriver();
     }
 
-  /*  @AfterClass(alwaysRun = true)
+   @AfterClass(alwaysRun = true)
     public void afterMethod(){
         if(driver !=null) {
             driver.quit();
         }
-    }*/
+    }
 
 }
